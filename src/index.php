@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 echo "Hello World\n"; // Fixed missing semicolon
-
+echo "Kubernetes\n";
 // Close the connection
 $conn->close();
 ?>
